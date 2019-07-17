@@ -17,20 +17,20 @@ To have the functionality for each Cell to be able to send data across to MFRF t
 
 #### Endpoints:
 
-* <domain>/mfrf/premium
+* [domain]/mfrf/premium
   * Post all premium information
   * Body - premium database schema (refer to database schemas below and json input)
 	* Mandatory field validation
   * Date field validation
 	* Write to MFRF premium table in Oracle
 
-* <domain>/mfrf/claim
+* [domain]/mfrf/claim
 	* Post all claim information
 		* Body - claim database schema (refer to database schemas below and json input)
 		* Mandatory field validation
 		* Date field validation
 		* Write to MFRF claim table in Oracle
-* <domain>/mfrf/customer
+* [domain]/mfrf/customer
 	* Post all customer information
 		* Body - customer database schema (refer to database schemas below and json input)
 		* Mandatory field validation
