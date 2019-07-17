@@ -8,12 +8,12 @@ Mutual & Federal Risk Finance is a cell captive insurer who have a number of cel
 
 ![alt text](Image.png)
 
+<div style="page-break-after: always;"></div>
 
 ## Functionality
 
 To have the functionality for each Cell to be able to send data across to MFRF through an Application Programming Interface (API) via a post request. The API will handle data checking if mandatory fields are supplied, date fields are a date data type and write these records across to the database. There will be three endpoints, an endpoint for premiums, claims and customer information.
 
-\pagebreak
 
 ### Specification
 
