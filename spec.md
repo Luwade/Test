@@ -61,123 +61,132 @@ To have the functionality for each Cell to be able to send data across to MFRF t
 
 ###### Premium:
 ```
-{
-  "cust_no": "string",
-  "pol_no": "string",
-  "pr_trans_no": "int",
-  "pr_trans_dt": "date",
-  "pr_finmonth": "string",
-  "pr_incept_dt": "date",
-  "pr_cover_start": "date",
-  "pr_cover_end": "date",
-  "pr_renew_dt": "date",
-  "pr_sam_class": "string",
-  "pr_freq ": "char",
-  "pr_sumin ": "int",
-  "pr_city": "string",
-  "pr_country": "string",
-  "pr_post_code ": "string",
-  "pr_curr": "string",
-  "gross_ri_type": "string",
-  "pr_trans_type": "string",
-  "pr_amount": "float",
-  "pr_amount_vat": "float",
-  "pr_count": "int",
-  "additional_fields": {
-    "prod_name": "string",
-    "pr_item_no": "string",
-    "pr_item_desc": "string",
-    "pr_extent": "string",
-    "pr_cancel_dt": "date",
-    "pr_cancel_reason": "string",
-    "pr_limit ": "int",
-    "pr_add": "string",
-    "pr_add2": "string",
-    "pr_suburb": "string",
-    "pr_reason": "string",
-    "pr_bordereaux": "string"
-  }
-}
+[
+	{
+	  "cust_no": "string",
+	  "pol_no": "string",
+	  "pr_trans_no": "int",
+	  "pr_trans_dt": "date",
+	  "pr_finmonth": "string",
+	  "pr_incept_dt": "date",
+	  "pr_cover_start": "date",
+	  "pr_cover_end": "date",
+	  "pr_renew_dt": "date",
+	  "pr_sam_class": "string",
+	  "pr_freq ": "char",
+	  "pr_sumin ": "int",
+	  "pr_city": "string",
+	  "pr_country": "string",
+	  "pr_post_code ": "string",
+	  "pr_curr": "string",
+	  "gross_ri_type": "string",
+	  "pr_trans_type": "string",
+	  "pr_amount": "float",
+	  "pr_amount_vat": "float",
+	  "pr_count": "int",
+	  "additional_fields": {
+	    "prod_name": "string",
+	    "pr_item_no": "string",
+	    "pr_item_desc": "string",
+	    "pr_extent": "string",
+	    "pr_cancel_dt": "date",
+	    "pr_cancel_reason": "string",
+	    "pr_limit ": "int",
+	    "pr_add": "string",
+	    "pr_add2": "string",
+	    "pr_suburb": "string",
+	    "pr_reason": "string",
+	    "pr_bordereaux": "string"
+	  }
+	},
+	{...}
+]
 ```
 
 ###### Claim:
 ```
-{
-  "cust_no": "string",
-  "pol_no": "string",
-  "cm_clm_no ": "string",
-  "cm_trans_no": "int",
-  "cm_dom ": "date",
-  "cm_finmonth": "string",
-  "cm_lcc": "string",
-  "cm_dol ": "date",
-  "cm_dor ": "date",
-  "cm_doc ": "date",
-  "cm_reopen": "date",
-  "cm_cat ": "string",
-  "cm_curr": "string",
-  "gross_ri_type": "string",
-  "cm_trans_type": "string",
-  "cm_amount": "float",
-  "cm_amount_vat": "float",
-  "cm_count": "int",
-  "additional_fields": {
-    "prod_name": "string",
-    "pr_item_no": "string",
-    "pr_item_desc": "string",
-    "cm_status": "string",
-    "cm_cat_type ": "string",
-    "cm_bordereaux": "string",
-    "cm_party_type": "string",
-    "cm_party_name": "string"
-  }
-}
+[
+	{
+	  "cust_no": "string",
+	  "pol_no": "string",
+	  "cm_clm_no ": "string",
+	  "cm_trans_no": "int",
+	  "cm_dom ": "date",
+	  "cm_finmonth": "string",
+	  "cm_lcc": "string",
+	  "cm_dol ": "date",
+	  "cm_dor ": "date",
+	  "cm_doc ": "date",
+	  "cm_reopen": "date",
+	  "cm_cat ": "string",
+	  "cm_curr": "string",
+	  "gross_ri_type": "string",
+	  "cm_trans_type": "string",
+	  "cm_amount": "float",
+	  "cm_amount_vat": "float",
+	  "cm_count": "int",
+	  "additional_fields": {
+	    "prod_name": "string",
+	    "pr_item_no": "string",
+	    "pr_item_desc": "string",
+	    "cm_status": "string",
+	    "cm_cat_type ": "string",
+	    "cm_bordereaux": "string",
+	    "cm_party_type": "string",
+	    "cm_party_name": "string"
+	  }
+	},
+	{...}
+]
 ```
 
 ###### Customer:
 
 ```
-{
-  "cust_no": "string",
-  "cus_type": "string",
-  "cus_id_type": "string",
-  "cus_id_num": "string",
-  "cus_dob": "date",
-  "cus_gender": "string",
-  "cus_surname": "string",
-  "cus_firstname": "string",
-  "cus_reg_no": "string",
-  "cus_vat_no": "int",
-  "cus_reg_name": "string",
-  "cus_area_code ": "string",
-  "cus_contact_no1": "string",
-  "cus_count": "int",
-  "additional_fields": {
-    "cus_seq_no": "int",
-    "cus_title": "string",
-    "cus_nationality": "string",
-    "cus_marital": "string",
-    "cus_language": "string",
-    "cus_occupation": "string",
-    "cus_postal_1": "string",
-    "cus_postal_2": "string",
-    "cus_postal_office": "string",
-    "cus_postal_city": "string",
-    "cus_postal_country": "string",
-    "cus_post_code ": "string",
-    "cus_physical_1": "string",
-    "cus_physical_2": "string",
-    "cus_physical_office": "string",
-    "cus_physical_city": "string",
-    "cus_physical_country": "string",
-    "cus_email": "string",
-    "cus_contact_no2": "int",
-    "cus_cr_score_auth": "string",
-    "cus_cr_score": "float",
-    "cus_cr_rating": "string",
-    "cus_rating_agency": "string"
-  }
-}
+[
+	{
+	  "cust_no": "string",
+	  "cus_type": "string",
+	  "cus_id_type": "string",
+	  "cus_id_num": "string",
+	  "cus_dob": "date",
+	  "cus_gender": "string",
+	  "cus_surname": "string",
+	  "cus_firstname": "string",
+	  "cus_reg_no": "string",
+	  "cus_vat_no": "int",
+	  "cus_reg_name": "string",
+	  "cus_area_code ": "string",
+	  "cus_contact_no1": "string",
+	  "cus_count": "int",
+	  "additional_fields": {
+	    "cus_seq_no": "int",
+	    "cus_title": "string",
+	    "cus_nationality": "string",
+	    "cus_marital": "string",
+	    "cus_language": "string",
+	    "cus_occupation": "string",
+	    "cus_postal_1": "string",
+	    "cus_postal_2": "string",
+	    "cus_postal_office": "string",
+	    "cus_postal_city": "string",
+	    "cus_postal_country": "string",
+	    "cus_post_code ": "string",
+	    "cus_physical_1": "string",
+	    "cus_physical_2": "string",
+	    "cus_physical_office": "string",
+	    "cus_physical_city": "string",
+	    "cus_physical_country": "string",
+	    "cus_email": "string",
+	    "cus_contact_no2": "int",
+	    "cus_cr_score_auth": "string",
+	    "cus_cr_score": "float",
+	    "cus_cr_rating": "string",
+	    "cus_rating_agency": "string"
+	  }
+	},
+	{...}
+]
 ```
 
 #### Authorization
